@@ -1,0 +1,16 @@
+{
+  "name": "geo-postgraphile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "postgraphile": "^4.13.0",
+    "postgraphile-plugin-connection-filter": "^2.3.0"
+  }
+}
